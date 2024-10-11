@@ -6,8 +6,8 @@ from elevenlabs.client import ElevenLabs
 
 app = Flask(__name__)
 
-API_KEY = "d3062c42b47c5c88010b0a8a7af21188"  # Eleven labs
-OPENAI_API_KEY = "sk-proj-SjWNno1kTW5LiBsfJ8XAT3BlbkFJskyUD8gGGn9MrUBzXZMa"
+API_KEY = "PUT YOURS HERE"  # Eleven labs
+OPENAI_API_KEY = "PUT YOURS HERE"
 MODEL_NAME = "gpt-3.5-turbo"
 VOICE_PICKLE_FILE = 'voice.pickle'
 RESPONSE_AUDIO_FILE = 'response_elevenlabs.mp3'
